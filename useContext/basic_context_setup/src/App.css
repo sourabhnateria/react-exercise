@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.themed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.light {
+  background: white;
+  color: black;
+}
+
+.dark {
+  background: black;
+  color: white;
+}
+
+.toggle-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: gray;
+  color: white;
+}
+
+.toggle-button:hover {
+  background: darkgray;
+}
