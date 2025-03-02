@@ -1,0 +1,31 @@
+.app-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .wizard-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .navigation-buttons {
+    margin-top: 10px;
+  }
+  
+  .navigation-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .navigation-buttons button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  

@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+
+input {
+  padding: 5px;
+  font-size: 1em;
+}
+
+p {
+  font-size: 1.2em;
+  color: #555;
+}
